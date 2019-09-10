@@ -1,0 +1,7 @@
+<!-- components/tag/index.wxml -->
+<!-- 小程序中后边的class不一定会强制覆盖前边的class -->
+<view class="container tag-class" bind:tap="onTap">
+    <slot name="before"></slot>
+    <text>{{text}}</text>
+    <slot name="after"></slot>
+</view>

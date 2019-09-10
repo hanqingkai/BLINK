@@ -1,0 +1,8 @@
+<view class="container">
+    <view class="top-container">
+        <v-tag class="tag" text="{{typeText}}"></v-tag>
+        <v-like read-only="{{true}}" count="{{classic.fav_nums}}" like="{{true}}"></v-like>
+    </view>
+    <image class="{{classic.type===200?'image2':'image1'}}" src="{{classic.image}}" />
+    <text>{{classic.content}}</text>
+</view>

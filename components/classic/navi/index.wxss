@@ -1,0 +1,19 @@
+ .container {
+     display: flex;
+     flex-direction: row;
+     height: 80rpx;
+     background-color: #f7f7f7;
+     justify-content: space-between;
+     align-items: center;
+     width: 600rpx;
+     border-radius: 2rpx;
+ }
+ 
+ .container image {
+     width: 80rpx;
+     height: 80rpx;
+ }
+ 
+ .container text {
+     font-size: 28rpx;
+ }
